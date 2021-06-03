@@ -1194,7 +1194,7 @@ body {
   -webkit-transition: .2s background linear;
   -o-transition: .2s background linear;
   transition: .2s background linear;
-  padding: .3rem;
+  padding: .25rem;
 }
 
 .contact-slider .slick-dots {
