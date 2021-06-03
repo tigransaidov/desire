@@ -1321,7 +1321,7 @@ body {
   -o-transition: all .25s linear;
   transition: all .25s linear;
   display: block;
-  background-color: #363838;
+  background-color: #454647;
   width: 35px;
   height: 2px;
   top: 16px;
@@ -1332,7 +1332,7 @@ body {
 .header__btn-menu span::after,
 .header__btn-menu span::before {
   content: '';
-  background-color: #363838;
+  background-color: #454647;
   width: 35px;
   height: 2px;
   position: absolute;
