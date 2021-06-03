@@ -1296,7 +1296,7 @@ body {
   top: 0;
   right: 0;
   z-index: 0;
-  width: 37px;
+  width: 35px;
   height: 35px;
   background-color: transparent;
   cursor: pointer;
@@ -1309,11 +1309,11 @@ body {
 }
 
 .header__btn-menu:hover span::after {
-  top: 10px;
+  top: 9px;
 }
 
 .header__btn-menu:hover span::before {
-  top: -10px;
+  top: -9px;
 }
 
 .header__btn-menu span {
@@ -1321,10 +1321,10 @@ body {
   -o-transition: all .25s linear;
   transition: all .25s linear;
   display: block;
-  background-color: #000;
-  width: 37px;
+  background-color: #5A5A5A;
+  width: 32px;
   height: 2px;
-  top: 16px;
+  top: 18px;
   left: 0;
   position: absolute;
 }
@@ -1332,8 +1332,8 @@ body {
 .header__btn-menu span::after,
 .header__btn-menu span::before {
   content: '';
-  background-color: #000;
-  width: 37px;
+  background-color: #5A5A5A;
+  width: 32px;
   height: 2px;
   position: absolute;
   left: 0;
@@ -1343,11 +1343,11 @@ body {
 }
 
 .header__btn-menu span::after {
-  top: 8px;
+  top: 7px;
 }
 
 .header__btn-menu span::before {
-  top: -8px;
+  top: -7px;
 }
 
 .header__btn-menu._active {
@@ -1359,6 +1359,7 @@ body {
       -ms-transform: rotate(180deg);
           transform: rotate(180deg);
   background-color: transparent;
+  height: 0;
 }
 
 .header__btn-menu._active span::before {
